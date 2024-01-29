@@ -1,6 +1,6 @@
 # Notes SwiftUI
 
-![Getting Started](./Images/Notes-Poster.jpg)
+![Getting Started](./Notes/Images/Notes-Poster.jpg)
 
 ## Motivation
 
