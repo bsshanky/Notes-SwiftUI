@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB15E6D12B67F62800A1C191 /* Notes-Poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB15E6D02B67F62800A1C191 /* Notes-Poster.jpg */; };
 		DB7654D62B66C39D008CCE12 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7654D52B66C39D008CCE12 /* NotesViewModel.swift */; };
 		DB9C1E702B65BE9200964A11 /* NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9C1E6F2B65BE9200964A11 /* NotesApp.swift */; };
 		DB9C1E722B65BE9200964A11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9C1E712B65BE9200964A11 /* ContentView.swift */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB15E6D02B67F62800A1C191 /* Notes-Poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Notes-Poster.jpg"; sourceTree = "<group>"; };
 		DB7654D52B66C39D008CCE12 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
 		DB9C1E6C2B65BE9200964A11 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9C1E6F2B65BE9200964A11 /* NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp.swift; sourceTree = "<group>"; };
@@ -50,17 +48,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB6322C32B67E79500129858 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				DB15E6D02B67F62800A1C191 /* Notes-Poster.jpg */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		DB84073D2B6762A10012A6D7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DB9C1E712B65BE9200964A11 /* ContentView.swift */,
 				DB9C1E7D2B65BEDB00964A11 /* NotesView.swift */,
 				DB9C1E7F2B65BF1300964A11 /* EditNotesView.swift */,
 				DB9C1E812B65BF2F00964A11 /* ListCellView.swift */,
@@ -80,6 +71,7 @@
 		DB84073F2B6762DC0012A6D7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DB9C1E8F2B65C43600964A11 /* NotesContainer.xcdatamodeld */,
 				DB9C1E852B65BF6D00964A11 /* CoreDataManager.swift */,
 			);
 			path = Model;
@@ -112,15 +104,12 @@
 		DB9C1E6E2B65BE9200964A11 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
-				DB6322C32B67E79500129858 /* Images */,
 				DB9C1E6F2B65BE9200964A11 /* NotesApp.swift */,
-				DB9C1E712B65BE9200964A11 /* ContentView.swift */,
 				DB9C1E732B65BE9300964A11 /* Assets.xcassets */,
 				DB9C1E752B65BE9300964A11 /* Preview Content */,
 				DB84073D2B6762A10012A6D7 /* View */,
 				DB84073F2B6762DC0012A6D7 /* Model */,
 				DB8407402B6762F90012A6D7 /* Extensions */,
-				DB9C1E8F2B65C43600964A11 /* NotesContainer.xcdatamodeld */,
 				DB84073E2B6762BA0012A6D7 /* ViewModel */,
 			);
 			path = Notes;
@@ -193,7 +182,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB9C1E772B65BE9300964A11 /* Preview Assets.xcassets in Resources */,
-				DB15E6D12B67F62800A1C191 /* Notes-Poster.jpg in Resources */,
 				DB9C1E742B65BE9300964A11 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
