@@ -1,6 +1,6 @@
 # Notes SwiftUI
 
-![Getting Started](./Notes/Images/Notes-Poster.jpg)
+![Getting Started](./Images/Notes-Poster.jpg)
 
 ## Motivation
 
@@ -8,7 +8,7 @@ The primary motivation behind developing the NotesToDoc app was to replicate the
 
 ## Features
 
-The NotesToDoc app comes equipped with a suite of features designed to enhance the user experience and provide a seamless note-taking process. The core features of the application include:
+The Notes app comes equipped with a suite of features designed to enhance the user experience and provide a seamless note-taking process. The core features of the application include:
 
 1. Universal Compatibility: The app is designed to support both iPad and iPhone screens, ensuring a consistent and responsive user experience across all devices.
    
@@ -20,7 +20,7 @@ The NotesToDoc app comes equipped with a suite of features designed to enhance t
 
 ## Future Scope
 
-While the NotesToDoc app already offers a robust note-taking solution, there are plans to further enhance its capabilities and integrate additional features. The future developments for the app include:
+While the Notes app already offers a robust note-taking solution, there are plans to further enhance its capabilities and integrate additional features. The future developments for the app include:
 
 1. Integration of 'Sign in with Apple': To provide a more personalized and secure experience, there are plans to integrate 'Sign in with Apple'. This feature will not only enhance security but also pave the way for more personalized features in the future.
    
